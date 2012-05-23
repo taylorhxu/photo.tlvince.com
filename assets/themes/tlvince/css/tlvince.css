@@ -45,3 +45,12 @@ time {
 img {
     margin-bottom: 18px;
 }
+
+@font-face {  
+    font-family: cc-icons;  
+    src: url(../ttf/cc-icons.ttf) format("truetype");  
+}
+
+.cc {
+  font-family: cc-icons,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
