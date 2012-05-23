@@ -6,9 +6,12 @@ group: navigation
 ---
 {% include JB/setup %}
 
-<ul class="tag_box inline">
-  {% assign tags_list = site.tags %}  
-  {% include JB/tags_list %}
+{% unless site.tags == empty %}
+
+<i class="icon-tags"></i>
+<ul class="tag_box">
+{% assign tags_list = site.tags %}
+{% include JB/tags_list %}
 </ul>
 
 
@@ -19,3 +22,6 @@ group: navigation
     {% include JB/pages_list %}
   </ul>
 {% endfor %}
+
+{% endunless %}
+
