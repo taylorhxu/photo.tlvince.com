@@ -1,0 +1,47 @@
+body {
+  background: #EEE url(../img/subtle-bg.png) repeat top left
+}
+
+
+.divider {
+  *width: 100%;
+  height: 1px;
+  margin: 13px 1px;
+  *margin: -5px 0 5px;
+  overflow: hidden;
+  background-color: #CCC;
+  border-bottom: 1px solid #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #464646;
+}
+
+h2 > a {
+    color: #555;
+}
+
+p {
+    font-size: 14px;
+    line-height: 28px;
+    color: #444;
+}
+
+time {
+    color: #999;
+}
+
+.tag_box {
+    list-style: none;
+    padding-bottom: 20px;
+    margin-top: -20px;
+}
+
+.tag_box > li {
+    float: left;
+    padding-right: 5px;
+}
+
+img {
+    margin-bottom: 18px;
+}
