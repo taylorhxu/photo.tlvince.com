@@ -4,8 +4,8 @@ A photoblog powered by [Jekyll Bootstrap][jb].
 
 ## Usage
 
-        heroku create --stack cedar --buildpack "https://github.com/markpundsack/heroku-buildpack-jekyll.git#9cedb547fc"
-        heroku config:add FLICKR_API_KEY="xxx" FLICKR_SECRET_KEY="xxx" BUNDLE_WITHOUT="development"
+    heroku create --stack cedar --buildpack "https://github.com/markpundsack/heroku-buildpack-jekyll.git#9cedb547fc"
+    heroku config:add FLICKR_API_KEY="xxx" FLICKR_SECRET_KEY="xxx" BUNDLE_WITHOUT="development"
 
 ## Author
 
