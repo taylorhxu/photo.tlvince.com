@@ -260,11 +260,6 @@ def theme_from_git_url(url)
   abort("rake aborted: system call to git clone failed") if !system("git clone #{url} #{tmp_path}")
   manifest = verify_manifest(tmp_path)
   new_path = JB::Path.build(:theme_packages, :node => manifest["name"])
-  if File.exist?(new_path) && ask("=> #{new_path} theme package already exists. Override?", ['y', 'n']) == 'n'
-    remove_dir(tmp_path)
-    abort("rake aborted: '#{manifest["name"]}' already exists as theme package.")
-  end
-
   remove_dir(new_path) if File.exist?(new_path)
   mv(tmp_path, new_path)
   manifest
