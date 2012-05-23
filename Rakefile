@@ -207,9 +207,7 @@ namespace :theme do
     
     puts "=> #{name} theme has been installed!"
     puts "=> ---"
-    if ask("=> Want to switch themes now?", ['y', 'n']) == 'y'
-      system("rake switch_theme name='#{name}'")
-    end
+    system("rake switch_theme name='#{name}'")
   end
 
   # Public: Package a theme using the theme packager.
