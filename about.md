@@ -45,3 +45,5 @@ This photoblog was made with help from [Jekyll][j], [Jekyll Bootstrap][jb],
   [cc]: https://creativecommons.org/licenses/by-nc-sa/3.0/
   [jb]: http://jekyllbootstrap.com
   [tb]: http://twitter.github.com/bootstrap/
+  [contact]: http://tlvince.com/contact
+  [twitter]: https://twitter.com/#!/tlvince
