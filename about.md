@@ -28,7 +28,7 @@ non-commercial, share alike (CC BY-NC-SA).
 You're feely allowed to use my CC photos as you see fit, so long as they are
 attributed. Something like the following is great:
 
-[Hangzhou][1] by [Tom Vincent][2], available under a [Creative Commons
+Photo "[Hangzhou][1]" by [Tom Vincent][2], available under a [Creative Commons
 Attribution-NonCommercial-ShareAlike license][cc].
 
 If you'd like to use one of my photos commercially, [contact me][contact] and
