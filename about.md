@@ -36,7 +36,7 @@ we'll sort something out.
 
 ## Website
 
-This photoblog was made with help from [Jekyll][j], [Jekyll Bootstrap][jb],
+This photoblog was made with help from [Jekyll][j], [Jekyll Bootstrap][jb] and
 [Twitter Bootstrap][tb].
 
   [1]: http://photo.tlvince.com/2011/06/06/hangzhou/
