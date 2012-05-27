@@ -31,15 +31,25 @@ time {
     color: #999;
 }
 
-.tag_box {
+.box {
     list-style: none;
-    padding-bottom: 20px;
+}
+
+.box > li {
+    float: left;
+    padding-right: 5px;
+}
+
+.tag_box {
     margin-top: -20px;
 }
 
-.tag_box > li {
-    float: left;
-    padding-right: 5px;
+.tag_box > h2 {
+    margin-top: 20px;
+}
+
+#metabox {
+    margin-bottom: 40px;
 }
 
 img {
@@ -55,6 +65,3 @@ img {
   font-family: cc-icons;
 }
 
-.tag_box > h2 {
-    margin-top: 20px;
-}
