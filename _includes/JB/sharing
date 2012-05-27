@@ -13,7 +13,7 @@ Usage:
   https://github.com/tlvince/jb-theme-tlvince
 -->{% endcomment %}
 
-{% if site.JB.sharing %}
+{% if site.JB.sharing.enabled %}
 
     {% capture sharing_url %}{{ site.production_url }}{{ page.url }}/{% endcapture %}
     {% capture sharing_prefix %}Share "{{ page.title }}" on{% endcapture %}
