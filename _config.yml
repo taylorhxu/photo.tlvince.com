@@ -108,9 +108,8 @@ JB :
   # Set 'provider' to the sharing provider you want to use.
   # Set 'provider' to false to turn sharing off globally.
   #
-  sharing :
-    enabled : true
-    providers :
+  sharing : true
+    provider :
         twitter : true
         facebook : true
         google-plus: true
