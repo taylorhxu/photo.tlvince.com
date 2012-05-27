@@ -8,23 +8,8 @@
   <div class="span12">
   <div class="content">
     {{ content }}
-    
-    <div id="metabox">
-      {% unless page.tags == empty %}
-      <span class="pull-left">
-        <i class="icon-tags icon-large"></i>
-        <ul class="tag_box box">
-          {% assign tags_list = page.tags %}
-          {% include JB/tags_list %}
-        </ul>
-      </span>
-      {% endunless %}
 
-      <ul class="pull-right box">
-        {% assign sharing_message_prefix = "Photo" %}
-        {% include JB/sharing %}
-      </ul>
-    </div>
+    {% include JB/themes/tlvince/metabox.html %}
 
     <div class="divider"></div>
     <div class="pagination">

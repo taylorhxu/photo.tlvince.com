@@ -6,14 +6,7 @@
   </header>
   <div class="content">
   {{ post.content }}
-  <div class="content">
-  {% unless post.tags == empty %}
-  <i class="icon-tags icon-large"></i>
-  <ul class="tag_box">
-  {% assign tags_list = post.tags %}
-  {% include JB/tags_list %}
-  </ul>
-  {% endunless %}
+  {% include JB/themes/tlvince/metabox.html %}
   <div class="divider"></div>
 </article>
 {% endfor %}
