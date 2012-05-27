@@ -18,6 +18,10 @@ Usage:
     {% capture sharing_url %}{{ site.production_url }}{{ page.url }}/{% endcapture %}
     {% capture sharing_prefix %}Share "{{ page.title }}" on{% endcapture %}
 
+    {% if sharing_context %}
+        {% assign page = sharing_context %}
+    {% endif %}
+
     {% if site.JB.sharing.provider.twitter %}
         {% capture sharing_title %}{{ sharing_prefix }} Twitter{% endcapture %}
         {% include JB/sharing-providers/twitter %}
