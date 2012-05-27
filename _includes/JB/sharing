@@ -1,13 +1,15 @@
-{% if site.safe and site.JB.sharing.enabled %}
+{% if site.JB.sharing %}
 
-    {% if site.sharing.twitter %}
-        <li><i class="icon-twitter-alt icon-large"></i>
+    {% capture url %}{{ site.production_url }}{{ page.url }}/{% endcapture %}
+
+    {% if site.JB.sharing.provider.twitter %}
+        {% include JB/sharing-providers/twitter %}
     {% endif %}
-    {% if site.sharing.facebook %}
-        <li><i class="icon-facebook-alt icon-large"></i></li>
+    {% if site.JB.sharing.provider.facebook %}
+        {% include JB/sharing-providers/facebook %}
     {% endif %}
-    {% if site.sharing.google-plus %}
-        <li><i class="icon-google-plus icon-large"></i></li>
+    {% if site.JB.sharing.provider.google-plus %}
+        {% include JB/sharing-providers/google-plus %}
     {% endif %}
 
 {% endif %}
