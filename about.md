@@ -10,13 +10,12 @@ This photoblog showcases some of my favourite photos from my collection.
 
 Most are synchronised with:
 
-<div class="row">
-  <div class="span1"><a href="https://secure.flickr.com/photos/tlvince">Flickr</a></div>
+<div class="row" style="margin-bottom: 9px">
+  <div class="span1"><a href="http://www.flickr.com/photos/tlvince">Flickr</a></div>
   <div class="span1"><a href="http://500px.com/tlvince">500px</a></div>
   <div class="span1"><a href="http://www.fluidr.com/photos/tlvince">Fluidr</a></div>
   <div class="span1"><a href="https://twitter.com/#!/tlvince_photo">@tlvince_photo</a></div>
 </div>
-<br/>
 
 I sometimes blog at [tlvince.com][2] and tweet [@tlvince][twitter].
 
