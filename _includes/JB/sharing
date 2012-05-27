@@ -1,8 +1,13 @@
-{% if site.safe and site.JB.sharing.provider and page.JB.sharing != false %}
+{% if site.safe and site.JB.sharing.enabled %}
 
-{% case site.JB.sharing.provider %}
-{% when "custom" %}
-  {% include custom/sharing %}
-{% endcase %}
+    {% if site.sharing.twitter %}
+        <li><i class="icon-twitter-alt icon-large"></i>
+    {% endif %}
+    {% if site.sharing.facebook %}
+        <li><i class="icon-facebook-alt icon-large"></i></li>
+    {% endif %}
+    {% if site.sharing.google-plus %}
+        <li><i class="icon-google-plus icon-large"></i></li>
+    {% endif %}
 
 {% endif %}
