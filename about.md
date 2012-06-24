@@ -14,7 +14,6 @@ Most are synchronised with:
   <div class="span1"><a href="http://www.flickr.com/photos/tlvince">Flickr</a></div>
   <div class="span1"><a href="http://500px.com/tlvince">500px</a></div>
   <div class="span1"><a href="http://www.fluidr.com/photos/tlvince">Fluidr</a></div>
-  <div class="span1"><a href="https://twitter.com/#!/tlvince_photo">@tlvince_photo</a></div>
 </div>
 
 I sometimes blog at [tlvince.com][2] and tweet [@tlvince][twitter].
